@@ -3,13 +3,27 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 color: #ffffff;
+font-family: arial;
+font-size: 1rem;
 }
+
+.header {
+    
+    width: 100vw;
+    height: 20vh
+    display: flex;
+    flex-direction: column;
+    background-size:contain;
+    background-color: #62AB37;
+}
+
 
 .wrapper {
     background-color: #62AB37;
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
     width: 100vw;
 }
@@ -36,13 +50,13 @@ color: #ffffff;
     height: 2rem;
     margin: .5rem;
     background-color: #B20D30;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .inputfield {
     height: 2rem;
     padding: 10px;
-    background-color: #B20D30;
+    
     border-radius: 50px;
     border: none;
     color: #ffffff;
